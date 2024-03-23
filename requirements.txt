@@ -1,6 +1,6 @@
 discord
 httpx
-re
+regex
 random
 subprocess
 sys
