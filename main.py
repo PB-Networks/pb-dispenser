@@ -252,10 +252,5 @@ async def unlock(ctx):
  await ctx.channel.set_permissions(ctx.guild.default_role, send_messages=True)
  await ctx.send('Channel unlocked.')
 
-@bot.command()  # Command to stop running the bot
-async def stop(ctx):
-    """Stop the bot."""
-    await ctx.send('Stopping bot...')
-    await bot.close()
 
 bot.run('')
