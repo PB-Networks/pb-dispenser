@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-from keep_alive import keep_alive
 import httpx
 import re
 import random
@@ -259,5 +258,4 @@ async def stop(ctx):
     await ctx.send('Stopping bot...')
     await bot.close()
 
-keep_alive()
-bot.run('MTE5NDEyMTcyNzIwMzA5NDU2MA.Gg1IZT.vgtdavgMswVu3KwQDUXI1xj71FpkG9Pb0D_9Ho')
+bot.run('MTE5NDEyMTcyNzIwMzA5NDU2MA.GjvSUq.slW81qPVP_JKE3_pWtG3j2TFV-EAKhWoPTeTII')
