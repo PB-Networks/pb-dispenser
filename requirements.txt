@@ -1,9 +1,8 @@
 discord
 httpx
 regex
-subprocess
-sys
+subprocess.run
 sympy
 asyncio
-collections
-datetime
+collection
+DateTime
