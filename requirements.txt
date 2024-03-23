@@ -1,1 +1,10 @@
-
+discord
+httpx
+re
+random
+subprocess
+sys
+sympy
+asyncio
+collections
+datetime
