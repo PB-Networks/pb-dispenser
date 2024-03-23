@@ -1,7 +1,6 @@
 discord
 httpx
 regex
-random
 subprocess
 sys
 sympy
