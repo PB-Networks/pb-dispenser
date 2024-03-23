@@ -258,4 +258,4 @@ async def stop(ctx):
     await ctx.send('Stopping bot...')
     await bot.close()
 
-bot.run('MTE5NDEyMTcyNzIwMzA5NDU2MA.GjvSUq.slW81qPVP_JKE3_pWtG3j2TFV-EAKhWoPTeTII')
+bot.run('')
