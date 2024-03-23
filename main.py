@@ -19,7 +19,7 @@ bot = commands.Bot(command_prefix='p!', intents=intents)
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(status=discord.Status.dnd, activity=discord.Game(name="Coming Soon | by Devman"))
+    await bot.change_presence(status=discord.Status.dnd, activity=discord.Game(name="Looking for new links | by Devman"))
     print(f'Logged in as {bot.user.name}')
 
 @bot.event
